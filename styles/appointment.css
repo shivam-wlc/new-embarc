@@ -1,0 +1,305 @@
+/* #appointment *{
+  border: 1px solid red;
+} */
+
+#appointment_resp{
+  width: 95%;
+  margin: 0% auto;
+}
+
+#appointment_main{
+  display: flex;flex-direction: column;align-items: center;
+}
+
+#pageloader
+{
+  background: rgba( 255, 255, 255, 0.8 );
+  display: none;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+#pageloader img
+{
+  left: 50%;
+  margin-left: -32px;
+  margin-top: -32px;
+  position: absolute;
+  top: 50%;
+}
+#appointment_main_head_img{
+
+background-image: url("../assets/headings/appointment/BOOK\ AN\ APPOINTMENT.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+width: 700px;  
+height: 80px;
+justify-content: center;
+margin: 2.5% 0%;
+
+
+}
+
+#form{
+  width: 100%;
+}
+
+
+#myform {
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: space-between; */
+}
+
+#myform > div {
+  display: flex;
+  
+  width: 100%;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+}
+
+
+
+form > div > div {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input {
+  padding: 15px 10px;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  width: 100%-20px;
+  border: none;
+  outline: none;
+  color: gray;
+}
+
+#number {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+#number > div {
+  width: 30%;
+}
+#number > input {
+  width: 62%;
+  margin-bottom: 0px;
+  margin-top: 25px;
+  height:15px;
+}
+
+label {
+  color: #472f8f;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: poppins;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+  
+}
+
+label::after {
+  content: attr(data-last-letter);
+  color: red;
+}
+
+select {
+  -webkit-appearance: none;
+  padding: 15px 10px;
+  border-radius: 25px;
+  width: 100%;
+  border: none;
+  outline: none;
+  color: gray;
+}
+
+.last-second-div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+}
+.last-second-div > div {
+  width: 95%;
+}
+
+p {
+  color: #472f8f;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: poppins;
+}
+
+.last-div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last-div > div {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.last-div > div>p {
+  color: #472f8f; margin-left: 10px;
+}
+
+#box {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#box > div {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+#box > div > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #472f8f;
+}
+
+input[type="submit"] {
+  background-image: linear-gradient(to right, #472f8f, #98025e);
+  color: #fff;
+  /* width: 10%; */
+  padding: 15px 40px;
+  font-weight: 500;
+  font-family: poppins-bold;
+  letter-spacing: 2.5px;
+  font-size: 14px;
+  
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, #98025e, #472f8f);
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  
+}
+
+.checkBoxFont {
+  font-family: poppins;
+}
+
+
+/* Popup container */
+#popup {
+
+  
+  background-image: linear-gradient(to right, #dad6ea, #ecd0e0);
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  width: 80%; 
+  max-width: 400px; 
+  
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Popup message */
+#popup-message {
+  font-family: poppins-bold;
+  letter-spacing: 2.5px; 
+   
+  margin-bottom: 16px;
+  
+}
+
+/* Popup button */
+#popup button {
+  
+background-image: linear-gradient(to right, #472f8f, #98025e);
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 25px; 
+  font-family: poppins-bold;
+  font-size: 14px;
+  letter-spacing: 2.5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+
+/* Full-screen overlay styles */
+#overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(5px); /* Blurs the content behind the overlay */
+  z-index: 999; /* Ensure it's below the popup but above everything else */
+}
+
+
+
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    /* CSS for mobile devices */
+    #appointment_main_head_img{
+      width: 300px;
+      margin-top:150px;
+    }
+    #myform > div {
+      flex-direction: column;
+    }
+    #myform > div > div {
+      width: 100%;
+    }
+    select{
+      margin-bottom: 15px;
+    }
+    #box > div{
+      
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+    }
+    input[type="submit"]{
+      margin: auto;
+      margin-bottom:100px;
+    }
+  }
+  /* Tablets, small screens, and portrait 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    /* CSS for tablets */
+  }
+  /* Laptops and large tablets 1024px to 1439px */
+  @media (min-width: 1025px) and (max-width: 1439px) {
+    /* CSS for small laptops */
+  }
+  

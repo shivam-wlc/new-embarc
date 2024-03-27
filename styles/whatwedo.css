@@ -1,0 +1,1167 @@
+/* #whatwedo_section_1 *{
+  border: 0.001px solid red;
+} */
+
+/* #whatwedo_section_2 * {
+  border: 0.01px solid red;
+} */
+
+/* whatwedo section 1 */
+
+#arrow_images {
+  display: hidden;
+}
+
+/* #whatwedo_section_2 *{
+border: 1px solid red;
+} */
+
+#whatwedo_section_1 {
+  min-height: calc(100vh - 100px);
+}
+
+#whatwedo_sec_1_resp {
+  min-height: calc(100vh - 100px);
+  margin: 0% 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#whatwedo_sec_1_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: calc(90vh - 100px);
+}
+
+#whatwedo_sec_1_content {
+  width: 85%;
+  margin: 0% auto;
+  text-align: center;
+  color: #472f8f;
+  font-family: poppins;
+  font-size: 15px;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+  /* border: 1px solid black; */
+}
+
+#whatwedo_sec_1_icons {
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: 0% auto;
+}
+
+#whatwedo_sec_1_icons > div {
+  width: 100%;
+}
+
+#whatwedo_sec_1_head_img {
+  background-image: url(../assets/headings/whatWeDo/whatWeDo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 80px;
+  margin: 0% auto;
+}
+
+#whatwedo_sec_1_icon_1_img {
+  width: 120px;
+  height: 120px;
+  background-image: url(../assets/icons/whatwedoIcons/whatWeDoIcon1Simple.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  margin: auto;
+}
+
+#whatwedo_sec_1_icon_2_img {
+  width: 120px;
+  height: 120px;
+  background-image: url(../assets/icons/whatwedoIcons/whatWeDoIcon2Simple.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  margin: auto;
+}
+
+#whatwedo_sec_1_icon_3_img {
+  width: 120px;
+  height: 120px;
+  background-image: url(../assets/icons/whatwedoIcons/whatWeDoIcon3Simple.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  margin: auto;
+}
+
+#whatwedo_sec_1_icon_1_img:hover {
+  background-image: url(../assets/icons/whatwedoIcons/whatWeDoIcon1Filled.png);
+}
+
+#whatwedo_sec_1_icon_2_img:hover {
+  background-image: url(../assets/icons/whatwedoIcons/whatWeDoIcon2Filled.png);
+}
+
+#whatwedo_sec_1_icon_3_img:hover {
+  background-image: url(../assets/icons/whatwedoIcons/whatWeDoIcon3Filled.png);
+}
+
+.whatwedo_sec_1_icon_text > p {
+  font-size: 12px;
+  font-family: poppins-bold;
+  text-align: center;
+  color: #472f8f;
+  letter-spacing: 1.5px;
+  margin-top: 10%;
+}
+
+/* whatwedo section 2 */
+
+#whatwedo_section_2 {
+  /* border: 1px solid red; */
+  min-height: calc(100vh - 100px);
+}
+
+#whatwedo_sec_2_resp {
+  margin-left: 15%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#whatwedo_sec_2_main {
+  min-height: calc(90vh - 100px);
+  display: flex;
+}
+
+.whatwedo_sec_2_main_odd {
+  min-width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.whatwedo_sec_2_main_even {
+  min-width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: middle;
+}
+
+#whatwedo_sec_2_content {
+  text-align: left;
+  font-family: poppins;
+  color: #472f8f;
+  font-size: 15px;
+  line-height: 1.2rem;
+  letter-spacing: 1px;
+  margin-top: 2.5%;
+  margin-bottom: 7.5%;
+
+  /* border: 1px solid black; */
+}
+
+#whatwedo_sec_2_head_img_1 {
+  background-image: url(../assets/headings/whatWeDo/personalCompass.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 600px;
+  display: flex;
+  justify-content: start;
+}
+
+#whatwedo_sec_2_content_img {
+  background: linear-gradient(to right, #462f8f, #99015e);
+  padding-left: 5%;
+
+  width: calc(min(120%, 80vw));
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  height: 50%;
+}
+
+#whatwedo_sec_2_content_img_1 {
+  background-image: url(../assets/images/whatwedo/personalCompassIContent.png);
+  background-position: end;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80%;
+}
+
+#whatwedo_sec_2_head_img_2 {
+  background-image: url(../assets/images/whatwedo/Boywitharrows.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: calc(90vh - 300px);
+  top: 12%;
+  right: 35%;
+}
+
+#whatwedo_sec_2_color_content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  line-height: 1.2rem;
+
+  /* border: 1px solid red; */
+}
+
+#whatwedo_sec_2_color_content_1 {
+  /* border: 1px solid red; */
+  width: 65%;
+  height: 30%;
+  display: flex;
+  margin-bottom: 5%;
+}
+
+#whatwedo_sec_2_color_content_1_img {
+  /* border: 1px solid red; */
+  width: 20%;
+}
+#whatwedo_sec_2_color_content_2_img {
+  /* border: 1px solid red; */
+  width: 20%;
+}
+
+#whatwedo_sec_2_color_content_3_img {
+  /* border: 1px solid red; */
+  width: 20%;
+}
+
+#whatwedo_sec_2_color_content_1_img > img {
+  width: 50px;
+  height: 50px;
+}
+#whatwedo_sec_2_color_content_2_img > img {
+  width: 50px;
+  height: 50px;
+}
+
+#whatwedo_sec_2_color_content_3_img > img {
+  width: 50px;
+  height: 50px;
+}
+
+#whatwedo_sec_2_color_content_1_text > p {
+  /* border: 1px solid red; */
+  font-size: 10px;
+  text-align: left;
+  margin: 0%;
+  letter-spacing: 1.25px;
+  padding-left: 1rem;
+
+  /* border: 1px solid red; */
+}
+
+#whatwedo_sec_2_color_content_2 {
+  /* border: 1px solid red; */
+  width: 65%;
+  height: 30%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  display: flex;
+}
+
+#whatwedo_sec_2_color_content_2_text > p {
+  /* border: 1px solid red;
+  border: 1px solid red; */
+  font-size: 10px;
+  text-align: left;
+  margin: 0%;
+  letter-spacing: 1.25px;
+  padding-left: 1rem;
+}
+
+#whatwedo_sec_2_color_content_3 {
+  /* border: 1px solid red; */
+  width: 65%;
+  height: 30%;
+  margin-top: 2%;
+  margin-left: 20%;
+  display: flex;
+}
+
+#whatwedo_sec_2_color_content_3_text > p {
+  /* border: 1px solid red; */
+  /* border: 1px solid red; */
+  font-size: 10px;
+  text-align: left;
+  margin: 0%;
+  letter-spacing: 1.25px;
+  padding-left: 1rem;
+}
+
+/* whatwedo section 3 */
+
+#whatwedo_section_3 {
+  /* border: 1px solid red; */
+  min-height: calc(100vh - 100px);
+}
+
+#whatwedo_sec_3_resp {
+  margin-left: 15%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#whatwedo_sec_3_main {
+  min-height: calc(90vh - 100px);
+  display: flex;
+}
+
+.whatwedo_sec_3_main_odd {
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.whatwedo_sec_3_main_even {
+  min-width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#whatwedo_sec_3_content {
+  text-align: left;
+  font-family: poppins;
+  color: #472f8f;
+  font-size: 15px;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+#whatwedo_sec_3_head_img_1 {
+  background-image: url(../assets/headings/whatWeDo/PROFILE\ BUILDING.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 525px;
+  display: flex;
+  justify-content: start;
+}
+
+#whatwedo_sec_3_content_img {
+  background: linear-gradient(to right, #462f8f, #99015e);
+  padding-left: 10%;
+
+  width: calc(min(130%, 90vw));
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  height: 50%;
+}
+
+#whatwedo_sec_3_content_img_1 {
+  background-image: url(../assets/images/whatwedo/profileBuildingContent.png);
+  background-position: end;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 70%;
+}
+
+#whatwedo_sec_3_head_img_2 {
+  background-image: url(../assets/images/whatwedo/profileBuilding.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: calc(90vh - 100px);
+  bottom: 15%;
+  right: 25%;
+}
+
+/* whatwedo section 4 */
+
+#whatwedo_section_4 {
+  /* border: 1px solid red; */
+  min-height: calc(100vh - 100px);
+}
+
+#whatwedo_sec_4_resp {
+  margin-left: 15%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#whatwedo_sec_4_main {
+  min-height: calc(90vh - 100px);
+  display: flex;
+}
+
+.whatwedo_sec_4_main_odd {
+  min-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.whatwedo_sec_4_main_even {
+  min-width: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#whatwedo_sec_4_content {
+  text-align: left;
+  font-family: poppins;
+  color: #472f8f;
+  font-size: 15px;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+#whatwedo_sec_4_head_img_1 {
+  background-image: url(../assets/headings/whatWeDo/APPLICATION\ MANAGEMENT.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 800px;
+  display: flex;
+  justify-content: start;
+}
+
+#whatwedo_sec_4_content_img {
+  background: linear-gradient(to right, #462f8f, #99015e);
+  padding-left: 5%;
+
+  width: calc(min(130%, 80vw));
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  height: 50%;
+}
+
+#whatwedo_sec_4_content_img_1 {
+  background-image: url(../assets/images/whatwedo/applicationManagementContent.png);
+  background-position: end;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70%;
+}
+
+#whatwedo_sec_4_head_img_2 {
+  background-image: url(../assets/images/whatwedo/mobileLaptopGirl.png);
+  background-position: center;
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: calc(90vh - 200px);
+  /* bottom: 15%; */
+  /* right: 15%; */
+  /* border: 1px solid yellow; */
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  /* CSS for mobile devices */
+
+  /* whatwedo section 1 */
+
+  #whatwedo_sec_1_icon_3_img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #whatwedo_sec_1_icon_2_img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #whatwedo_sec_1_icon_1_img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #whatwedo_sec_1_resp {
+    margin: 0% 0%;
+  }
+  .whatwedo_sec_1_icon_text > p {
+    font-size: 10px;
+  }
+  #whatwedo_sec_1_content {
+    font-size: 11px;
+    /* line-height: 16px; */
+    letter-spacing: 1.1px;
+    font-family: poppins;
+  }
+  #whatwedo_sec_1_head_img {
+    /* width: 146px; */
+    height: 30px;
+  }
+
+  /* whatwedo section 2 */
+
+  #whatwedo_sec_2_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #whatwedo_sec_2_resp {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #whatwedo_sec_2_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #whatwedo_sec_2_head_img_1 {
+    width: 218px;
+    height: 30px;
+  }
+
+  #whatwedo_sec_2_content {
+    font-size: 11px;
+    /* line-height: 16px; */
+    letter-spacing: 1.1px;
+  }
+
+  #whatwedo_sec_2_content_img {
+    /* height: 20vh;
+    height:300px; */
+    height: 550px;
+    width: 100%;
+    padding-left: 0%;
+    justify-content: center;
+    align-items: start;
+    padding-top: 10%;
+
+    margin: auto;
+  }
+
+  #whatwedo_sec_2_content_img_1 {
+    background-position: center;
+  }
+
+  #whatwedo_sec_2_content_img_2_temp {
+    display: none;
+  }
+
+  #whatwedo_sec_2_color_content {
+    margin-left: 5%;
+    width: 100%;
+  }
+  #whatwedo_sec_2_color_content_1_img > img {
+    width: 30px;
+    height: 30px;
+  }
+  #whatwedo_sec_2_color_content_2_img > img {
+    width: 30px;
+    height: 30px;
+  }
+  #whatwedo_sec_2_color_content_3_img > img {
+    width: 30px;
+    height: 30px;
+  }
+  #whatwedo_sec_2_color_content_3_text > p {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+  #whatwedo_sec_2_color_content_1_text > p {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+
+  #whatwedo_sec_2_color_content_2_text > p {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+
+  #whatwedo_sec_2_color_content_1 {
+    margin-left: 0%;
+  }
+  #whatwedo_sec_2_color_content_2 {
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 20px;
+  }
+  #whatwedo_sec_2_color_content_3 {
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 60px;
+  }
+
+  #whatwedo_sec_2_head_img_2 {
+    background-image: url(../assets/images/whatwedo/TeamBoyWithCircleBg.png);
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    background-size: contain;
+    right: -3%;
+    margin-top: -268%;
+  }
+
+  /* whatwedo section 3 */
+
+  #whatwedo_sec_3_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #whatwedo_sec_3_resp {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #whatwedo_sec_3_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #whatwedo_sec_3_head_img_1 {
+    /* width: 191px; */
+    width: auto;
+    /* height: 30px; */
+    height: 100px;
+    background-image: url(../assets/headings/whatWeDo/profileBuildingHeadMobile.png);
+    background-position: left;
+  }
+
+  #whatwedo_sec_3_content {
+    font-size: 11px;
+    /* line-height: 16px; */
+    letter-spacing: 1.1px;
+  }
+
+  #whatwedo_sec_3_content_img {
+    /* height: 20vh;
+    height: 300px;
+     */
+    height: 550px;
+    width: 100%;
+    padding-left: 0%;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #whatwedo_sec_3_content_img_1 {
+    background-position: start;
+    background-image: url(../assets/images/whatwedo/profileBuildingNewContentMobile.png);
+    width: 85%;
+    height: 80%;
+  }
+
+  #whatwedo_sec_3_head_img_2 {
+    position: relative;
+    background-position: right;
+    right: 0px;
+    background-image: url(../assets/images/whatwedo/BasketBallGirl.png);
+    right: -10%;
+    margin-top: -80%;
+  }
+  /* whatwedo section 4 */
+
+  #whatwedo_sec_4_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #whatwedo_sec_4_resp {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #whatwedo_sec_4_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+    /* border: 1px solid black; */
+  }
+
+  #whatwedo_sec_4_head_img_1 {
+    width: 291px;
+    height: 30px;
+  }
+
+  #whatwedo_sec_4_content {
+    font-size: 11px;
+    /* line-height: 16px; */
+    letter-spacing: 1.1px;
+  }
+
+  #whatwedo_sec_4_content_img {
+    height: 20vh;
+    height: 300px;
+    width: 100%;
+    padding-left: 0%;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #whatwedo_sec_4_content_img_1 {
+    background-position: start;
+    width: 85%;
+    height: 80%;
+  }
+
+  #whatwedo_sec_4_content_img {
+    height: 550px;
+    /* width: 112%; */
+    width: 100%;
+
+    /* margin-left: -6%; */
+  }
+
+  #whatwedo_sec_4_content_img_1 {
+    /* background-image: url(../assets/images/whatwedo/aplicationMangementMobileContent.png); */
+
+    background-image: url(../assets/images/whatwedo/applicationManagementNewContentMobile.png);
+  }
+
+  #whatwedo_sec_4_head_img_2 {
+    position: relative;
+    background-image: url(../assets/images/whatwedo/mobileLaptopGirl.png);
+    background-position: right;
+    right: -10%;
+    margin-top: -80%;
+  }
+
+  /* height of sections */
+  #whatwedo_section_1 {
+    min-height: auto;
+    margin-top: 5%;
+  }
+
+  #whatwedo_sec_1_content {
+    padding: 0% 0%;
+  }
+
+  #whatwedo_sec_1_head_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+  }
+
+  #whatwedo_sec_1_icons {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    flex-direction: column;
+    width: auto;
+  }
+
+  #whatwedo_sec_1_icons > div {
+    margin-bottom: 20%;
+  }
+
+  #whatwedo_sec_1_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_1_main {
+    min-height: auto;
+  }
+
+  #whatwedo_section_2 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_2_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_2_main {
+    min-height: auto;
+  }
+
+  #whatwedo_section_3 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_3_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_3_main {
+    min-height: auto;
+  }
+
+  #whatwedo_section_4 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_4_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_4_main {
+    min-height: auto;
+  }
+  #whatwedo_sec_2_content {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #whatwedo_sec_3_content {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #whatwedo_sec_4_content {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+
+  #whatwedo_sec_1_head_img {
+    margin-top: 150px;
+    height: 35px;
+  }
+  #whatwedo_sec_2_head_img_1 {
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+    background-image: url(../assets/headings/whatWeDo/personal2liner.png);
+    height: 100px;
+    width: auto;
+    background-position: left;
+    margin-bottom: 5%;
+  }
+  #whatwedo_sec_3_head_img_1 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  #whatwedo_sec_4_head_img_1 {
+    margin-top: 10%;
+    background-image: url(../assets/headings/whatWeDo/applicationManagementHeadMobile.png);
+    height: 100px;
+    width: auto;
+    background-position: left;
+    margin-bottom: 5%;
+  }
+
+  #whatwedo_sec_2_content_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_3_content_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_4_content_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+/* Tablets, small screens, and portrait 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS for tablets */
+
+  /* Whatwedo section 1 */
+
+  #whatwedo_sec_1_icon_3_img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #whatwedo_sec_1_icon_2_img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #whatwedo_sec_1_icon_1_img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #whatwedo_sec_1_resp {
+    margin: 0% 5%;
+  }
+
+  #whatwedo_sec_1_head_img {
+    width: 267px;
+    height: 50px;
+  }
+
+  /* whatwedo section 2 */
+
+  #whatwedo_sec_2_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #whatwedo_sec_2_resp {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  #whatwedo_sec_2_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #whatwedo_sec_2_head_img_1 {
+    width: 400px;
+    height: 50px;
+  }
+
+  #whatwedo_sec_2_content_img {
+    height: 300px;
+    width: 100%;
+    padding-left: 0%;
+    justify-content: center;
+
+    margin: auto;
+  }
+
+  #whatwedo_sec_2_content_img_1 {
+    background-position: center;
+  }
+
+  #whatwedo_sec_2_content_img_2_temp {
+    display: none;
+  }
+
+  #whatwedo_sec_2_color_content {
+    margin: auto;
+  }
+
+  #whatwedo_sec_2_head_img_2 {
+    background-image: url(../assets/images/whatwedo/TeamBoyWithCircleBg.png);
+  }
+
+  /* whatwedo section 3 */
+
+  #whatwedo_sec_3_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #whatwedo_sec_3_resp {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  #whatwedo_sec_3_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #whatwedo_sec_3_head_img_1 {
+    width: 350px;
+    height: 50px;
+  }
+
+  #whatwedo_sec_3_content_img {
+    height: 300px;
+    width: 100%;
+    padding-left: 0%;
+    justify-content: center;
+    margin: auto;
+  }
+
+  #whatwedo_sec_3_content_img_1 {
+    background-position: center;
+    width: 85%;
+    height: 80%;
+  }
+
+  #whatwedo_sec_3_head_img_2 {
+    background-image: url(../assets/images/whatwedo/BasketBallGirl.png);
+  }
+  /* whatwedo section 4 */
+
+  #whatwedo_sec_4_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #whatwedo_sec_4_resp {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  #whatwedo_sec_4_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #whatwedo_sec_4_head_img_1 {
+    width: 533px;
+    height: 50px;
+  }
+
+  /* modified application management */
+  #whatwedo_sec_4_content_img {
+    height: 800px;
+    width: 119%;
+
+    padding-left: 0%;
+    justify-content: center;
+
+    margin: auto;
+    margin-left: -10%;
+  }
+
+  #whatwedo_sec_4_content_img_1 {
+    background-position: center;
+    background-image: url(../assets/images/whatwedo/aplicationMangementMobileContent.png);
+    width: 85%;
+    height: 80%;
+  }
+
+  #whatwedo_sec_4_head_img_2 {
+    position: absolute;
+    background-image: url(../assets/images/whatwedo/mobileLaptopGirl.png);
+    background-position: right;
+    right: 0px;
+  }
+
+  /* height of sections */
+
+  #whatwedo_section_1 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_1_content {
+    padding: 0% 0%;
+  }
+
+  #whatwedo_sec_1_head_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_1_icons {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_1_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_1_main {
+    min-height: auto;
+  }
+
+  #whatwedo_section_2 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_2_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_2_main {
+    min-height: auto;
+  }
+
+  #whatwedo_section_3 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_3_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_3_main {
+    min-height: auto;
+  }
+
+  #whatwedo_section_4 {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_4_resp {
+    min-height: auto;
+  }
+
+  #whatwedo_sec_4_main {
+    min-height: auto;
+  }
+  #whatwedo_sec_2_content {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #whatwedo_sec_3_content {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #whatwedo_sec_4_content {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  #whatwedo_sec_2_head_img_1 {
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+  }
+  #whatwedo_sec_3_head_img_1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  #whatwedo_sec_4_head_img_1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_2_content_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_3_content_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  #whatwedo_sec_4_content_img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+/* Laptops and large tablets 1024px to 1439px */
+@media (min-width: 1025px) and (max-width: 1439px) {
+  /* CSS for small laptops */
+  #whatwedo_sec_2_content > br {
+    display: none;
+  }
+}
+@media (min-width: 1441px) {
+  /* CSS for small laptops */
+  /* #whatwedo_sec_2_content_img_2_temp {
+    display: none;
+  }
+  #whatwedo_sec_2_content > br {
+    display: none;
+  } */
+}

@@ -1,0 +1,232 @@
+
+
+#testimonials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+#test_main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#test_head_img {
+  padding-top: 30px;
+  
+  width: 700px;
+  margin: 50px auto;
+}
+
+#test_head_img>img{
+  height: 80px;
+}
+
+
+#test_main_carousel {
+  display: flex;
+  justify-content: space-around;
+  
+
+  width: 100%;
+}
+
+.test_main_card {
+  position: relative;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 300px !important;
+  margin: 10px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.test_top_left_img {
+  position: absolute;
+  width: 5%;
+  top: 5%;
+  left: 5%;
+}
+.test_bottom_right_img {
+  position: absolute;
+  width: 5%;
+  bottom: 5%;
+  right: 5%;
+  rotate: 180deg;
+}
+
+.test_main_card_content {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+  position: relative;
+  height: 100%;
+}
+
+.test_main_card_content h2 {
+  font-family: poppins-bold;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  color: #472f8f;
+  text-align: center;
+}
+
+.test_main_card_content p {
+  display: none;
+  font-family: poppins-italic;
+  font-size: 12px;
+  color: #472f8f;
+  text-align: center;
+}
+
+
+
+.test_main_card:hover .test_main_card_content p {
+  display: block; /* Show the paragraph when hovering over the card */
+  opacity: 1; /* Make the paragraph fully opaque */
+}
+/* Initial styling */
+.test_main_card_content p {
+  display: none; /* Hide the paragraph by default */
+}
+
+/* Smooth animation */
+.test_main_card {
+  transition: transform 0.3s ease; /* Add smooth transition for the card */
+}
+
+.test_main_card:hover {
+  transform: scale(1.05); /* Scale up the card slightly on hover */
+}
+
+.test_main_card:hover .test_main_card_content p {
+  display: block; /* Show the paragraph when hovering over the card */
+}
+.test_main_card_content {
+  position: relative; /* Add relative positioning */
+}
+
+.test_main_card_content p {
+  opacity: 0; /* Initially hide the paragraph */
+  transition: opacity 0.3s ease; /* Add a smooth transition for opacity */
+}
+
+.test_main_card:hover .test_main_card_content p {
+  opacity: 1; /* Show the paragraph with full opacity on hover */
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.test_main_card_content h2 {
+  bottom: 0; /* Align it to the bottom */
+  left: 0; /* Align it to the left */ 
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Add smooth transitions */
+  margin: auto;
+}
+
+.test_main_card:hover .test_main_card_content h2 {
+  opacity: 1; /* Show the h2 with full opacity on hover */
+  transform: translateY(-20px); /* Move the h2 up slightly */
+}
+
+
+.image_full{
+  display:block;
+ }
+
+.image_mobile{
+ display:none;
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  /* CSS for mobile devices */
+  #test_main_card {
+    width: 300px;
+    height: 400px;
+  }
+  #test_head_img {
+    width: 255px;
+  }
+  #test_head_img>img {
+    margin-top:100px;
+  }
+
+  .image_full{
+    display:none;
+   }
+ 
+   .image_mobile{
+    display:block;
+   }
+
+
+  /* height of sections */
+  #test_head_img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 0px;
+  }
+
+
+  /* nullifying hover */
+  .test_main_card_content p{
+    display: block;
+    opacity: 1;
+    margin: auto;
+  margin-bottom: 0;
+  }
+
+  .test_main_card:hover .test_main_card_content h2{
+    transform: none;
+  }
+
+}
+/* Tablets, small screens, and portrait 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS for tablets */
+  #test_head_img {
+    width: 467px;
+  }
+  #test_head_img>img {
+    height: 50px;
+  }
+
+
+
+  /* height of sections */
+
+  #test_head_img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 0px;
+  }
+
+
+
+  /* nullifying hover */
+  .test_main_card_content p{
+    display: block;
+    opacity: 1;
+    margin: auto;
+  margin-bottom: 0;
+  }
+
+  .test_main_card:hover .test_main_card_content h2{
+    transform: none;
+  }
+  
+}
+/* Laptops and large tablets 1024px to 1439px */
+@media (min-width: 1025px) and (max-width: 1439px) {
+  /* CSS for small laptops */
+}

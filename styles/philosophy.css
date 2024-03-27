@@ -1,0 +1,290 @@
+/* #philosophy_section_2 *{
+  border: 0.01px solid red;
+} */
+
+#philosophy_section_1 {
+  height: calc(100vh - 80px);
+  /* border: 1px solid red; */
+  background-image: url(../assets/images/philosophy/pholosophyBackground.jpg);
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 20%);
+}
+
+#philosophy_sec_1_resp {
+  margin-left: 10%;
+  padding-left: 5.5%;
+  /* border: 1px solid red; */
+  height: inherit;
+  display: flex;
+  /* flex-direction:column; */
+  justify-content: start;
+  align-items: center;
+}
+
+#philosophy_sec_1_head_img {
+  /* margin-top: 1%; */
+  height: 400px;
+  width: 400px;
+
+  background-image: url(../assets/logo.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#philosophy_sec_1_head_img:hover {
+  background-image: url(../assets/headings/philosophy/readySteadyGrow.png);
+  margin-left: 8%;
+  height: 250px;
+  width: 220px;
+}
+
+/* Philosophy section 2 */
+
+#philosophy_section_2 {
+  /* border: 1px solid red; */
+  min-height: calc(100vh - 100px);
+}
+
+#philosophy_sec_2_resp {
+  margin-left: 15%;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+#philosophy_sec_2_main {
+  min-height: calc(80vh - 100px);
+  display: flex;
+}
+
+#philosophy_sec_2_main > div {
+  min-width: 50%;
+}
+
+.philosophy_sec_2_main_odd {
+  display: flex;
+  flex-direction: column;
+}
+
+#philosophy_sec_2_content {
+  /* border: 1px solid black; */
+  text-align: left;
+  font-family: poppins;
+  color: #472f8f;
+  font-size: 15px;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  margin-top: 7.5%;
+  width: 110%;
+}
+
+#philosophy_sec_2_head_img_1 {
+  background-image: url(../assets/headings/philosophy/optimisingYourPotential.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: calc(min(140%, 850px));
+  /* width: 850px; */
+  display: flex;
+  justify-content: start;
+}
+
+#philosophy_sec_2_head_img_2 {
+  background-image: url(../assets/images/philosophy/optimisePotential.png);
+  background-position: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  height: calc(80vh - 100px);
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+  /* CSS for mobile devices */
+
+  #philosophy_section_1 {
+    height: calc(100vh - 0px);
+    margin-top: -1.5rem;
+  }
+
+  #philosophy_sec_1_resp {
+    margin-left: 0%;
+    padding-left: 2.5%;
+  }
+
+  #philosophy_sec_1_head_img {
+    height: 200px;
+    width: 200px;
+    margin-top: 60%;
+  }
+
+  #philosophy_sec_1_head_img:hover {
+    margin-left: 8%;
+    height: 120px;
+    width: 120px;
+  }
+
+  #philosophy_sec_2_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #philosophy_sec_2_resp {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #philosophy_sec_2_head_img_1 {
+    width: 309px;
+    height: 30px;
+  }
+
+  #philosophy_sec_2_content {
+    font-size: 12px;
+    /* line-height: 16px; */
+    /* letter-spacing: 1.25px; */
+    letter-spacing: 1.1px;
+    line-height: 1.2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30%;
+    width: auto;
+    text-align: paragraph;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    background-image: url(../assets/images/philosophy/philosophyNewImage.png);
+  }
+
+  #philosophy_sec_2_head_img_1 {
+    background-image: url(../assets/headings/philosophy/optimizingPotential2liner.png);
+    height: 100px;
+    width: auto;
+    background-position: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    background-position: right;
+  }
+
+  /* height of sections */
+
+  #philosophy_section_2 {
+    min-height: auto;
+    margin-top: 5%;
+  }
+
+  #philosophy_sec_2_resp {
+    min-height: auto;
+  }
+
+  #philosophy_sec_2_main {
+    min-height: auto;
+  }
+
+  #philosophy_sec_2_content {
+    margin-top: 0%;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    margin-top: 10%;
+  }
+
+  #philosophy_sec_2_head_img_1 {
+    margin-top: 30%;
+    margin-bottom: 10%;
+    margin-bottom: 5%;
+  }
+}
+
+/* Tablets, small screens, and portrait 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS for tablets */
+  #philosophy_sec_1_resp {
+    margin-left: 0%;
+    padding-left: 5.5%;
+  }
+
+  #philosophy_sec_1_head_img {
+    height: 300px;
+    width: 300px;
+  }
+
+  #philosophy_sec_1_head_img:hover {
+    margin-left: 8%;
+    height: 187px;
+    width: 165px;
+  }
+
+  #philosophy_sec_2_main {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #philosophy_sec_2_resp {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    height: 30vh;
+    background-size: contain;
+    background-position: bottom;
+  }
+
+  #philosophy_sec_2_head_img_1 {
+    width: 567px;
+    height: 50px;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    background-image: url(../assets/images/philosophy/philosophyNewImage.png);
+  }
+
+  /* height of sections */
+
+  #philosophy_section_2 {
+    min-height: auto;
+  }
+
+  #philosophy_sec_2_resp {
+    min-height: auto;
+  }
+
+  #philosophy_sec_2_main {
+    min-height: auto;
+  }
+
+  #philosophy_sec_2_content {
+    margin-top: 0%;
+    width: auto;
+  }
+
+  #philosophy_sec_2_head_img_2 {
+    margin-top: 10%;
+  }
+
+  #philosophy_sec_2_head_img_1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+/* Laptops and large tablets 1024px to 1439px */
+@media (min-width: 1025px) and (max-width: 1439px) {
+  /* CSS for small laptops */
+}
