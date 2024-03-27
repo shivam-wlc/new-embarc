@@ -21,3 +21,27 @@ arrowIcons.forEach((arrowIcon, i) => {
     });
   }
 });
+
+const menuWrap = document.querySelector(".menu");
+const checkBox = document.querySelector("#checkbox22");
+
+const menuss = document.querySelectorAll(".menu ul a");
+
+document.addEventListener("click", (event) => {
+  const isMenuOpen = checkBox.checked;
+  if (
+    isMenuOpen &&
+    !menuWrap.contains(event.target) &&
+    event.target !== checkBox
+  ) {
+    checkBox.checked = false; // Close the menu by unchecking the checkbox
+  }
+
+  menuss.forEach((menu) => {
+    if (isMenuOpen) {
+      menu.addEventListener("click", () => {
+        checkBox.checked = false; // Close the menu by unchecking the checkbox
+      });
+    }
+  });
+});
